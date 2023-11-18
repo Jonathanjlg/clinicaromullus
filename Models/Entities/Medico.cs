@@ -1,14 +1,17 @@
-public class Medico{// Inicio.
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-   /* 
-     Variável: é um espaço reservado na
-      mémoria do computador.  
-   */
-   // POO( programação orientada a objetos.)
-   //Na POO Variável é chamada também de atributo.
-   //No C# ela pode ser um propriedade automática.
-   int Id;
-   string? CRM;
-   string Nome = string.Empty;
-   
+namespace Clinicaromullus.Models.Entities
+{
+   public class Medico
+   {
+     public int Id { get; set; }
+     public string? CRM { get; set; }
+     public string? Nome { get; set; }
+
+
+   }
+
 }//Fim.
